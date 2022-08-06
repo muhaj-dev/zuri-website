@@ -17,8 +17,6 @@
 }
 .enroll{
     display: flex;
-    /* align-items: center; */
-    /* height: 10px; */
     background-color: black;
 }
 .enroll img{
