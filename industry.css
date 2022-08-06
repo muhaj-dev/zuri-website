@@ -1,0 +1,27 @@
+.body{ 
+    background-color: #fffdf5!important;
+}
+.ind-head{
+    margin: 0 auto;
+    width: 92%;
+    padding: 26px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.ind-head ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-basis: 65%;
+    align-items: center;
+}
+.enroll{
+    display: flex;
+    /* align-items: center; */
+    /* height: 10px; */
+    background-color: black;
+}
+.enroll img{
+    height: 70px;
+    background-color: aqua;
+}
