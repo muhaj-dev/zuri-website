@@ -455,6 +455,7 @@
     margin: 10px auto;
     border-top: 1px solid grey;
     padding: 40px 0px;
+    background: rgb(255, 253, 245);
 }
 .prog-i{
     margin: 0 auto;
@@ -486,14 +487,15 @@
 }
 .prog-head{
     background: #1b1a20;
+    box-shadow: 0 0 4rem #b58180;
     padding: 40px;
     margin-top: 30px;
     border-radius: 70px;
     width: 45%;
     position: relative;
 }
-.prog-head h1, .prog-head h6, .prog-head p,.prog-head div, .prog-head ul li{
-    color: white;
+    .prog-head h1, .prog-head h6, .prog-head p,.prog-head div, .prog-head ul li{
+        color: white;
 }
 .prog-l{
     position: absolute;
@@ -505,4 +507,95 @@
 .prog-l img{
     width: 30%;
     height: 30%;
+}
+.prog-card .cir2{
+    position: absolute;
+    bottom: -100px;
+}
+
+.prog-card .cir2 img{
+    width: 15%;
+    height: 15%;
+}
+.last{
+    width: 92%;
+    margin: 70px auto 60px;
+    background-color: #E7332B;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px auto;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.last p{
+    margin-top: 100px;
+    color: white;
+    font-size: 1.2rem;
+}
+.last-h{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    width: 50%;
+    margin: 10px auto;
+}
+.last button{
+    padding: 10px 20px;
+    margin: 10px auto 100px;
+    border-radius: 30px;
+    border: none;
+}
+.last-i div{
+    position: absolute;
+    bottom: -20px;
+}
+
+.last-i .cir3{ 
+    position: absolute;
+    bottom: 40px;
+    left: -30px;
+}
+.last-i .cir4{ 
+    position: absolute;
+    bottom: 10px;
+    right: -330px;
+}
+.last-i .cir5{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.cir5 img{
+    width: 60%;
+    height: 50%;
+}
+.last-i .cir4 img{
+    width: 20%;
+    height: 20%;
+}
+.cir3{
+    width: 20%;
+    height: 20%;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: 40px auto;
+}
+.f-link span{
+    background-color: #E7332B;
+    margin: 0 6px;
+    padding: 5px;
+    width: 20px;
+    height: 25px;
+    border-radius: 45%;
+}
+.f-end{
+    width: 92%;
+    margin: 4px auto;
+    display: flex;
+    justify-content: space-between;
 }
