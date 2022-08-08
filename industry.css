@@ -465,3 +465,44 @@
     width: 80%;
     height: 80%;
 }
+.prog-con{
+    text-align: center;
+}
+.prog-con h4{
+    color: #E7332B;
+}
+.prog-con h1{
+    color: black;
+}
+.prog-con p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.prog-card{
+    width: 93%;
+    margin: 20px auto;
+    justify-content: space-between;
+    position: relative;
+}
+.prog-head{
+    background: #1b1a20;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 70px;
+    width: 45%;
+    position: relative;
+}
+.prog-head h1, .prog-head h6, .prog-head p,.prog-head div, .prog-head ul li{
+    color: white;
+}
+.prog-l{
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.prog-l img{
+    width: 30%;
+    height: 30%;
+}
