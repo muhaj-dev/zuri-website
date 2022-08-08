@@ -384,6 +384,7 @@
 .que{
     position: relative;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 .que-i{
     position: absolute;
@@ -422,4 +423,45 @@
     color: black;
     padding-top: 5px;
     font-weight: 500;
+}
+.que-c{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.que-b{
+    color: white;
+    background-color: #E7332B;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-radius: 30px;
+}
+.que-b img{
+    width: 17%;
+    height: 17%; 
+}
+.que-b p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 14px;
+}
+
+.prog-container{
+    width: 92%;
+    margin: 10px auto;
+    border-top: 1px solid grey;
+    padding: 40px 0px;
+}
+.prog-i{
+    margin: 0 auto;
+    width: 95%;
+    justify-content: space-between;
+}
+.prog-i img{
+    width: 80%;
+    height: 80%;
 }
